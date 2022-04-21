@@ -13,5 +13,8 @@
     "module"
   ],
   "author": "Gustavo Lira",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
