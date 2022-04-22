@@ -18,5 +18,16 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.5.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoLira-ChE/spiderverse-tdd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GustavoLira-ChE/spiderverse-tdd/issues"
+  },
+  "homepage": "https://github.com/GustavoLira-ChE/spiderverse-tdd#readme"
 }
