@@ -1,4 +1,4 @@
-import Spiderman from './../app/spiderman'
+import Spiderman from './../app/spiderman.js'
 
 /* 
 describe("Test Suite Dummy Description", () => {
@@ -16,7 +16,12 @@ describe("Unit test for spiderman class", () => {
         expect(andrewGarfield.name).toBe("Spiderman");
         expect(andrewGarfield.age).toBe(31);
         expect(andrewGarfield.actor).toBe("Andrew Garfield");
-        expect(andrewGarfield.movie).toBe(2);
+        expect(andrewGarfield.movies).toBe(2);
         expect(andrewGarfield.studio).toBe("Sony");
     });
+    test('2) Create a method to show name and studio', () => {
+        //Instancia de Spiderman
+        const tomHolland = new Spiderman("Spiderman", 26, "Tom Holland", 3, "Sony-Marvel studios");
+        expect(tomHolland.getInfo()).toBe("Hey, I'm Tom Holland from Sony-Marvel studios")
+    })
 })
